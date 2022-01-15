@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>F4Life</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-index.css">
 </head>
 <body>
   <section>
     <div class="circle"></div>
     <header>
       <a href="#"><img src="./imagens/f4lifelogo.png"class="logo"></a>
-      <ul>
+      <ul class="nav-menu">
         <li> <a href="#" target="_blank">Home</a></li>
-        <li> <a href="#" target="_blank">Sobre nós</a></li>
+        <li> <a href="./sobre-nos.html" target="_blank">Sobre nós</a></li>
         <li> <a href="#" target="_blank">Contato</a></li>
       </ul>
     </header>
@@ -30,7 +30,9 @@
     </main>
   <footer>
     <ul class="thumb">
-      <li><img src="./imagens/casadesenho.png" onclick="slider('/imagens/casadesenho.png') ;changeCircleColor('#fff')" ></li>
+      <li><img src="./imagens/casadesenho.png" onclick="slider('/imagens/casadesenho.png') ;changeCircleColor('#fff')" >
+      <div class="hovertext" data-hover="Casas"></div>
+      </li>
       <li><img src="./imagens/apartamentodesenho.png" onclick="slider('apartamentodesenho.png'); changeCircleColor('#333')"></li>
     </ul>
   </footer>
