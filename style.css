@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400&display=swap');
+
 * 
 {
-    font-family: sans-serif;
+    font-family: 'Catamaran';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,18 +23,18 @@ section
 
 header
  {
+    display: flex;
     position:absolute;
     top: 0;
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    justify-content: space-between;
     align-items: center;
 }
 
 header .logo {
     position: relative;
-    max-width: 200px;
+    width: 300px;
 }
 
 header ul {
@@ -42,7 +44,8 @@ header ul {
 }
 
 header ul li {
-list-style: none;
+    list-style: none;
+    font-size: 22px;
 }
 
 header ul li a{
@@ -64,7 +67,7 @@ text-decoration: none;
 
 .content .textBox {
 position: relative;
-max-width: 600px;
+max-width: 800px;
 
 }
 
@@ -85,6 +88,7 @@ font-weight: 500;
 .content .textBox p{
     color: #fff;
     font-size: 20px;
+    padding: 10px;
 
 }
 
@@ -102,11 +106,10 @@ text-decoration: none;
 
 
 .content .imgBox {
-    width: 400px;
     display: flex;
     justify-content: flex-end;
     padding-right: 50px;
-margin-top: 50px;
+    margin-top: 50px;
 }
 
 .content .imgBox img {
@@ -120,6 +123,7 @@ margin-top: 50px;
     bottom: 20px;
     transform: translateX(-50%);
     display: flex;
+    align-items: center;
 }
 
 .thumb li {
