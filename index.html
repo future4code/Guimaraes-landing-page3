@@ -1,53 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>F4Life</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>F4Life</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <section>
-    <div class="circle"></div>
-    <header>
-      <a href="#"><img src="./imagens/f4lifelogo.png"class="logo"></a>
- <ul>
-    <li> <a href="#">Home</a></li>
-    <li> <a href="#">Sobre nós</a></li>
-    <li> <a href="#">Contato</a></li>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="./imagens/f4lifelogo.png" class="logo"></a>
+            <ul>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">Sobre nós</a></li>
+                <li> <a href="contato.html">Contato</a></li>
 
-      </ul>
-    </header>
-    <div class="content">
-    <div class="textBox">
-<h2>É mais do que viver <br>É<span> Conviver!</span></h2>
-<p>Aqui na F4LIFE acreditamos que a sua experiência universitária pode ser única. Seja morando solo, ou convivendo com outros estudantes, estamos prontos para fazer a sua experiência ser única e inesquecível.</p>
-  <a href="#">Saiba Mais</a>
-  </div>
-  <div class="imgBox">
-    <img src="./imagens/coliving.png" class="4life">
-  </div>
-  </div>
-  <ul class="thumb">
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>É mais do que viver <br>É<span> Conviver!</span></h2>
+                <p>Aqui na F4LIFE acreditamos que a sua experiência universitária pode ser única. Seja morando solo, ou convivendo com outros estudantes, estamos prontos para fazer a sua experiência ser única e inesquecível.</p>
+                <a href="#">Saiba Mais</a>
+            </div>
+            <div class="imgBox">
+                <img src="./imagens/coliving.png" class="4life">
+            </div>
+        </div>
+        <ul class="thumb">
 
-    <li><img src="./imagens/casadesenho.png" onclick="slider('/imagens/casadesenho.png') ;changeCircleColor('#fff')" ></li>
-    <li><img src="./imagens/apartamentodesenho.png" onclick="slider('apartamentodesenho.png'); changeCircleColor('#333')"></li>
-   
-
-  </ul>
-  <ul class="sci">
-
-    <li><a href="#"><img src="./imagens/facebook.png"></a></li>
-    <li><a href="#"><img src="./imagens/instagram.png"></a></li>
-
-  </ul>
-  </section>
+            <li><img src="./imagens/casadesenho.png" onclick="slider('/imagens/casadesenho.png') ;changeCircleColor('#fff')"></li>
+            <li><img src="./imagens/apartamentodesenho.png" onclick="slider('apartamentodesenho.png'); changeCircleColor('#333')"></li>
 
 
-<script type="text/javascript">
-  function slider(anything) {
-    document.querySelector('.4life').src=anything
-  }
-  </script>
-  
+        </ul>
+        <ul class="sci">
+
+            <li>
+                <a href="#"><img src="./imagens/facebook.png"></a>
+            </li>
+            <li>
+                <a href="#"><img src="./imagens/instagram.png"></a>
+            </li>
+
+        </ul>
+    </section>
+
+
+    <script type="text/javascript">
+        function slider(anything) {
+            document.querySelector('.4life').src = anything
+        }
+    </script>
+
+
+
 
 </body>
