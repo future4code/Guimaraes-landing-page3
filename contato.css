@@ -163,7 +163,7 @@ form {
     font-size: 20px;
     margin-top: 20px;
     max-width: 500px;
-    text-align: center;
+    text-align: right;
     justify-content: center;
 }
 
@@ -171,7 +171,7 @@ h1 {
     margin-bottom: 3rem;
     font-size: 3rem;
     margin-left: 20px;
-  color: #fffafa;
+    color: #fffafa;
 }
 
 input,
@@ -182,6 +182,7 @@ textarea {
     margin-left: 20px;
     margin-top: 10px;
     border: 1px solid;
+    border-radius: 5px;
 }
 
 input:hover,
@@ -214,27 +215,14 @@ textarea {
     font-family: 'Poppins', sans-serif;
 }
 
-form label {
-    margin-left: 20px;
-    color: #FFFFFF;
-    font-weight: bold;
-    text-align: center;
-    justify-content: center;
-}
-
 .content {
-    position: relative;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 40;
 }
 
 .content .textBox {
 position: relative;
 max-width: 600px;
-
 }
 
 .content .textBox h2 {
@@ -254,21 +242,19 @@ font-weight: 500;
 .content .textBox p{
     color: #fff;
     font-size: 20px;
-
 }
 
 .content .textBox a {
-display: inline-block;
-margin-top: 20px;
-padding: 8px 20px;
-background: teal;
-color: #fff;
-border-radius: 40px;
-font-weight: 500;
-letter-spacing: 1px;
-text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: teal;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
 }
-
 
 .content .imgBox {
     position: relative;
@@ -276,7 +262,7 @@ text-decoration: none;
     display: flex;
     justify-content: right;
     padding-right: 0px;
-margin-top: 50px;
+    margin-top: 50px;
 }
 
 .content .imgBox img {

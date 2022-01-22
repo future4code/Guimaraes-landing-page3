@@ -31,54 +31,47 @@ body {
     height: 350px;
     margin: 10px;
     display: flex;
-justify-content: flex-start;
-align-items: center;
-background: linear-gradient(45deg, #6ddad3, #fff);
-border-radius: 35px;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(45deg, #6ddad3, #fff);
+    border-radius: 35px;
 
 }
-
 
 .container .card img {
     position: relative;
-bottom: 0;
-height: 350px;
-left: 50px;
-transform: translateX(-10%);
-transition: 1s;
+    bottom: 0;
+    height: 350px;
+    left: 50px;
+    transform: translateX(-10%);
+    transition: 1s;
 }
 
 .container .card:hover img {
-left: 20%;
-top: 50%;
-height: 200px;
+    left: 20%;
+    top: 50%;
+    height: 200px;
 }
 
 
 .container .card .content { 
-position: relative;
-width: 300%;
-left: 0%;
-bottom: -30%;
-padding: 20px 20px 20px 40px;
-transition: 0.5s;
-
-
+    position: relative;
+    width: 300%;
+    left: 0%;
+    bottom: -30%;
+    padding: 20px 20px 20px 40px;
+    transition: 0.5s;
 }
 
-.container .card .content h2{
-
-color: #333;
-text-transform: uppercase;
-font-size: 2.2em;
-line-height: 1em;
-
-
+.container .card .content h2 {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    line-height: 1em;
 } 
 
 .container .card .content p{
     color: #333;
-
 }
 
 
@@ -94,28 +87,63 @@ line-height: 1em;
     font-weight: 700;
 }
 
-header{
-    position: relative;
-    justify-content: center;
+header
+ {
+    display: flex;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
     align-items: center;
-    top: -100px;
-    right: -740px;
-
-
 }
 
-header .slogan {
+header .logo {
+    position: relative;
+}
+
+header ul {
+
+    position: relative;
+    display: flex; 
+}
+
+header ul li {
+    list-style: none;
+    font-size: 22px;
+}
+
+header ul li a{
+
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.nav-menu a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-menu a:hover {
+    color: teal;
+}
+
+
+.slogan {
     color: white;
     position: relative;
-    top: -120px;
+    top: 220px;
+    left: 5%;
     text-transform: uppercase;
 }
 
-header .slogan span {
+.slogan span {
     color: #6ddad3;
     font-weight: 900;
 }
 
-header .slogan h2 {
+.slogan h2 {
     text-transform: none;
 }
