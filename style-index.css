@@ -1,8 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media screen and (max-width: 400px) {
+    
+    header .logo {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 1024px) {
 
 * 
 {
-    font-family: 'Catamaran';
+    font-family: 'Poppins';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -33,7 +43,6 @@ header
 
 header .logo {
     position: relative;
-    width: 300px;
 }
 
 header ul {
@@ -176,3 +185,5 @@ header ul li a{
     background: teal;
     clip-path: circle(600px at right 800px);
 }
+}
+
