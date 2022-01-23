@@ -21,11 +21,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    left: 10;
 }
 
 .container .card {
     position: relative;
-    right: 80px;
+    left: 10;
     bottom: -100px;
     width: 600px;
     height: 350px;
@@ -86,6 +87,15 @@ body {
     margin-top: 10px;
     font-weight: 700;
 }
+
+
+.content {
+    align-items: left;
+    justify-content: left;
+    left: 10;
+}
+
+
 
 header
  {
