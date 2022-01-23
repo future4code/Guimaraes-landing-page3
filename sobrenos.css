@@ -32,9 +32,13 @@ body > header {
     align-items: center;
 }
 
+header {
+    padding: 20px 100px;
+}
+
 header ul {
-    
     float: left;
+    white-space: nowrap;
 }
 
 header ul li {
@@ -124,7 +128,7 @@ p {
 }
 
 .map-container .location {
-    color: #fffafa;
+    color: var(--offwhite);
     box-sizing: border-box;
     padding: 20px;
     float: right;

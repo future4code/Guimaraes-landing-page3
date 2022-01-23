@@ -135,7 +135,6 @@
     }
     
     header {
-        
         padding: 20px 100px;
     }
     
@@ -189,7 +188,7 @@
         margin-bottom: 3rem;
         font-size: 3rem;
         margin-left: 20px;
-        color: #fffafa;
+        color: var(--offwhite);
     }
     
     input,
@@ -220,8 +219,6 @@
         width: 100px;
         font-weight: bold;
         border-radius: 5px;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
         border: 1px solid;
     }
     
@@ -230,7 +227,6 @@
         height: 120px;
         line-height: 20px;
         max-width: 400px;
-        font-family: 'Poppins', sans-serif;
     }
     
     .content {
