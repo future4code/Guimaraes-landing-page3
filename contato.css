@@ -1,8 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400&display=swap');
 * {
+    font-family: 'Catamaran';
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #132235;
+}
+
+header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    align-items: center;
+}
+
+header .logo {
+    position: relative;
+    width: 300px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+    font-size: 22px;
+}
+
+header ul li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
 }
 
 body {
@@ -83,4 +129,11 @@ form label {
     font-weight: bold;
     text-align: center;
     justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: teal;
+    padding: 20px;
 }
