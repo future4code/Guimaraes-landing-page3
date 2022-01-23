@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400&display=swap');
+* {
+    font-family: 'Catamaran';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #132235;
+}
+
+header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    align-items: center;
+}
+
+header .logo {
+    position: relative;
+    width: 300px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+    font-size: 22px;
+}
+
+header ul li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.trabalhe-conosco {
+    padding: 60px 0;
+    margin-top: 100px;
+}
+
+.trabalhe-conosco img {
+    max-width: 60%;
+    box-shadow: 8px 8px 10px teal;
+}
+
+#texto-trabalhe-conosco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.conteudo-trabalhe-conosco {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.trabalhe-conosco h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: teal;
+}
+
+.trabalhe-conosco h4 {
+    margin-bottom: 20px;
+    color: teal;
+}
+
+.trabalhe-conosco p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+.trabalhe-conosco button {
+    align-self: center;
+    font-size: 16px;
+    width: 60%;
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: none;
+    background: white;
+    color: teal;
+    margin-top: 20px;
+    transition: all 0.2s;
+}
+
+.trabalhe-conosco button:hover {
+    background-color: teal;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: teal;
+    padding: 20px;
+}
+
+@media (max-width: 960px) {
+    .conteudo-trabalhe-conosco {
+        flex-direction: column;
+        max-width: 600px;
+        gap: 60px;
+    }
+    .trabalhe-conosco h2 {
+        font-size: 30px;
+    }
+    .trabalhe-conosco h3 {
+        font-size: 18px;
+    }
+    .trabalhe-conosco p {
+        text-align: center;
+        font-size: 16px;
+    }
+}
